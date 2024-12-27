@@ -38,6 +38,7 @@ public class Database {
                 .filter(abitazione -> codice.equals(abitazione.getCodiceHost()))
                 .toList();
     }
+    /*
     public static Prenotazione getLastPrenotazioneByIdUtente (Integer id) {
         Prenotazione p;
         Long giorni = 9999L;
@@ -52,5 +53,5 @@ public class Database {
                     }
                 });
                 return p;
-    }
+    }*/
 }
