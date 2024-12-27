@@ -22,10 +22,8 @@ ottenere l'abitazione più gettonata nell'ultimo mese
 ottenere gli host con più prenotazioni nell'ultimo mese
 ottenere tutti i super-host
 ottenere i 5 utenti con più giorni prenotati nell'ultimo mese
-ottenere il numero medio di posti letto calcolato in base a tutte le abitazioni caricate dagli host
-Per le date e i periodi potete utilizzare java.time.LocalDateTime e java.time.Duration esempio:
+ottenere il numero medio di posti letto calcolato in base a tutte
+le abitazioni caricate dagli host
+Per le date e i periodi potete utilizzare java.time.LocalDateTime e
+java.time.Duration esempio:
 Period.between(aDate, sixtyDaysBehind);
-
-*SVOLGIMENTO*
-
-classe utenti con attributi
