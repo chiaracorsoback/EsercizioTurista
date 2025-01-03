@@ -1,6 +1,7 @@
 package entities;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class Prenotazione {
     private static Integer idTot = 0;
@@ -52,5 +53,9 @@ public class Prenotazione {
 
     public void setUtente(Utente utente) {
         this.utente = utente;
+    }
+
+    public Long getGiorniPermanenza(){
+        return ChronoUnit.DAYS.between(start, end);
     }
 }
